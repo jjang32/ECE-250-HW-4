@@ -144,11 +144,82 @@ end TCL_Generic;
       <a name="contents">addr/data: 8 8
 0
 </a>
-      <a name="label" val="Instruction Memory"/>
+      <a name="label" val="Instruction_Memory_b2d019ad"/>
     </comp>
     <comp lib="4" loc="(960,250)" name="RAM">
-      <a name="label" val="Data Memory"/>
+      <a name="label" val="Data_Memory_704a74f6"/>
     </comp>
     <comp lib="4" loc="(130,330)" name="D Flip-Flop"/>
+  </circuit>
+  <circuit name="RegisterFile">
+    <a name="circuit" val="RegisterFile"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="circuitvhdl" val="false"/>
+    <a name="circuitvhdlpath" val=""/>
+    <comp loc="(390,210)" name="CreateRegister"/>
+    <comp loc="(290,210)" name="CreateRegister"/>
+    <comp loc="(440,210)" name="CreateRegister"/>
+    <comp loc="(240,210)" name="CreateRegister"/>
+    <comp loc="(540,210)" name="CreateRegister"/>
+    <comp loc="(490,210)" name="CreateRegister"/>
+    <comp loc="(340,210)" name="CreateRegister"/>
+    <comp loc="(590,210)" name="CreateRegister"/>
+  </circuit>
+  <circuit name="CreateRegister">
+    <a name="circuit" val="CreateRegister"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="circuitvhdl" val="false"/>
+    <a name="circuitvhdlpath" val=""/>
+    <wire from="(430,120)" to="(520,120)"/>
+    <wire from="(430,200)" to="(520,200)"/>
+    <wire from="(320,320)" to="(320,390)"/>
+    <wire from="(210,200)" to="(370,200)"/>
+    <wire from="(520,160)" to="(580,160)"/>
+    <wire from="(520,170)" to="(580,170)"/>
+    <wire from="(560,180)" to="(580,180)"/>
+    <wire from="(270,390)" to="(320,390)"/>
+    <wire from="(320,240)" to="(370,240)"/>
+    <wire from="(320,160)" to="(370,160)"/>
+    <wire from="(320,320)" to="(370,320)"/>
+    <wire from="(210,160)" to="(210,200)"/>
+    <wire from="(140,170)" to="(140,280)"/>
+    <wire from="(560,180)" to="(560,280)"/>
+    <wire from="(520,120)" to="(520,160)"/>
+    <wire from="(370,280)" to="(380,280)"/>
+    <wire from="(320,240)" to="(320,320)"/>
+    <wire from="(320,160)" to="(320,240)"/>
+    <wire from="(140,120)" to="(370,120)"/>
+    <wire from="(140,160)" to="(210,160)"/>
+    <wire from="(140,280)" to="(370,280)"/>
+    <wire from="(430,280)" to="(560,280)"/>
+    <wire from="(520,170)" to="(520,200)"/>
+    <wire from="(140,120)" to="(140,150)"/>
+    <comp lib="4" loc="(380,110)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(380,190)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(600,150)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+    </comp>
+    <comp lib="0" loc="(120,180)" name="Pin">
+      <a name="width" val="3"/>
+      <a name="label" val="Data"/>
+    </comp>
+    <comp lib="0" loc="(600,150)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="3"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(270,390)" name="Clock"/>
+    <comp lib="4" loc="(380,270)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(120,180)" name="Splitter">
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+    </comp>
   </circuit>
 </project>
