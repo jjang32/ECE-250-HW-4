@@ -2562,7 +2562,7 @@ end TCL_Generic;
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="width" val="3"/>
-      <a name="label" val="rt"/>
+      <a name="label" val="rd"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(310,600)" name="Pin">
@@ -2598,7 +2598,7 @@ end TCL_Generic;
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="width" val="3"/>
-      <a name="label" val="rd"/>
+      <a name="label" val="rt"/>
       <a name="labelloc" val="east"/>
     </comp>
   </circuit>
