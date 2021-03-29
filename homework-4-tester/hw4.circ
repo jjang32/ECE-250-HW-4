@@ -458,7 +458,7 @@ end TCL_Generic;
     <comp lib="0" loc="(1340,850)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="width" val="16"/>
-      <a name="label" val="immed"/>
+      <a name="label" val="rs1"/>
     </comp>
     <comp lib="0" loc="(190,830)" name="Pin">
       <a name="label" val="reset"/>
